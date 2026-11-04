@@ -1,0 +1,6 @@
+duckdb==1.4.2
+numpy==2.5.4
+pandas==2.3.3
+python-dateutil==4.0.0
+pytz==2026.6
+tzdata==2026.6

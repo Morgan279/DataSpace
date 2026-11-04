@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "status": "blocked_on_official_dataset_access",
+  "decision": "INCONCLUSIVE",
+  "repository": "Morgan279/DataSpace",
+  "repository_commit": "6491caa4c70cc06cacb6103ba73cefb00746abfe",
+  "official_reference_tasks_selected": [],
+  "official_strategy_runs": 0,
+  "official_accuracy": null,
+  "official_fixed_strategy_dominance": null,
+  "official_complementarity": null,
+  "official_oracle_headroom": null,
+  "reason": "The official public dataset is absent locally and the configured proxy returned HTTP 403 for huggingface.co; the saved network draft has not been applied to the running instance.",
+  "network_draft_domain": "huggingface.co",
+  "live_policy_has_required_domain": false,
+  "p2_status": "not_started_no_p1_evidence",
+  "official_evaluator_tests": {"passed": 18, "failed": 0},
+  "research_tests": {"passed": 12, "failed": 0},
+  "synthetic_results_file": "synthetic.json",
+  "synthetic_strategy_trials": {"pandas_correct": 3, "duckdb_correct": 3, "trials_per_strategy": 3},
+  "download": {
+    "official_archive_size_bytes": null,
+    "official_host_range_support": "unverified",
+    "full_archive_required_to_access_selected_tasks": "unknown",
+    "full_archive_required_for_published_full_archive_sha256_verification": true
+  },
+  "llm_or_adaptive_agent_evaluated": false
+}
